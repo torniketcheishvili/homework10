@@ -7,7 +7,7 @@
 header {
     padding: 24px 150px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
 }
 
@@ -60,18 +60,18 @@ ul {
 /* section1 */
 .section1 {
     height: 520px;
-    background-image: url(../images/cover-1440.png);
+    background-image: url("../images/cover-1440.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.section1_article {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding-block: 186px;
+    row-gap: 40px;
+
 }
+
 
 .section1_text {
     font-family: Inter;
@@ -79,7 +79,6 @@ ul {
     font-weight: 900;
     line-height: 60px;
     filter: drop-shadow(3px 3px 4px white);
-    padding-bottom: 40px;
 }
 
 .section1_button {
